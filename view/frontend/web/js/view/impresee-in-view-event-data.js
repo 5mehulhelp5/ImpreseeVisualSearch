@@ -42,7 +42,7 @@ define([
             'customer_group': impreseeInViewData.customer.customer_group || '',
         }
 
-        _wsse_register_event(window._wsse_impresee_data, window._wsse_page_type_event  || 'VIEW_OTHER', impreseeInViewData);
+        //_wsse_register_event(window._wsse_impresee_data, window._wsse_page_type_event  || 'VIEW_OTHER', impreseeInViewData);
     }
 
     return Component.extend({
